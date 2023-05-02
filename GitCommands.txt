@@ -1,0 +1,28 @@
+website: https://github.com/
+go to repository and click new button
+
+git init --start git by goin to our laptop repository
+git status -- check status
+git add .  -- Added all files
+git status
+git commit -m "tanuja added code succesfully!!"  -- commit all code to local repository
+git remote add origin https://github.com/tanukolte96/EmployeeWithAuthenticationPract.git  -- pass https link of git to here
+git push -u origin master   -- all code push here to our origin master branch
+  -- Login with browser
+
+
+clone your project
+git clone https://github.com/tanukolte96/EmployeeWithAuthenticationPract.git
+
+create brnch
+// create a branch and switch to the branch
+$ git checkout -b <branch-name>
+
+// create a branch only
+git branch tanuja
+git branch --list
+git checkout tanuja
+
+-- added all master branch code to tanuja branch
+git push -u origin tanuja
+
